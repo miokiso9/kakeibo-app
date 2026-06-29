@@ -1,0 +1,35 @@
+# 環境変数ファイル（絶対にコミットしない）
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite ビルド成果物
+dist/
+dist-ssr/
+*.local
+
+# エディタ・IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# ログ
+logs/
+*.log
+
+# テスト
+coverage/
